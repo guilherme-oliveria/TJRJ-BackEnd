@@ -9,7 +9,7 @@ INSERT INTO autor (cod_au, nome) VALUES
 
 INSERT INTO livro (cod_livro, titulo, editora, edicao, ano_publicacao, valor) VALUES
                                                                                   (nextval('seq_livro'), 'Guia Java', 'Editora X', 1, '2020', 50.00),
-                                                                                  (nextval('seq_livro'), 'Codigo Limpo', 'Editora Y', 2, '2021', 75.50);
+                                                                                  (nextval('seq_livro'), 'Código Limpo', 'Editora Y', 2, '2021', 75.50);
 
 INSERT INTO livro_autor (livro_codl, autor_codau) VALUES
                                                       (1, 1),
