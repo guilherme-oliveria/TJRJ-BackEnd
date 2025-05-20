@@ -34,3 +34,24 @@ CREATE TABLE livro_assunto (
                                FOREIGN KEY (livro_codl) REFERENCES livro(cod_livro),
                                FOREIGN KEY (assunto_codas) REFERENCES assunto(cod_as)
 );
+
+CREATE SEQUENCE IF NOT EXISTS seq_autor
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+CREATE SEQUENCE IF NOT EXISTS seq_livro
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+CREATE SEQUENCE IF NOT EXISTS seq_assunto
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
