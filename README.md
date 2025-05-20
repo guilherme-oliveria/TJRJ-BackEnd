@@ -7,9 +7,9 @@ Este projeto é uma aplicação Java desenvolvida com Spring Boot e Maven. Ele i
 ## Tecnologias Utilizadas
 
 - Java
-- Spring Boot
+- Spring Boot : http://localhost:8080/swagger-ui/index.html
 - Maven
-- H2 Database
+- H2 Database : http://localhost:8080/h2-console
 
 ## Configuração do Projeto
 
