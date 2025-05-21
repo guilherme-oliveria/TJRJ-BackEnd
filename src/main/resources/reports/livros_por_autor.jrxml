@@ -118,8 +118,11 @@
                 <reportElement x="410" y="0" width="70" height="20" uuid="8d7e6f5e-4d3c-2b1a-0b9c-8d7e6f5e4d3c"/>
                 <textFieldExpression><![CDATA[NumberFormat.getCurrencyInstance().format($F{valor})]]></textFieldExpression>
             </textField>
-            <textField>
+            <textField isStretchWithOverflow="true">
                 <reportElement x="480" y="0" width="75" height="20" uuid="6f5e4d3c-2b1a-0b9c-8d7e-6f5e4d3c2b1a"/>
+                <textElement textAlignment="Left" verticalAlignment="Top">
+                    <font size="10"/>
+                </textElement>
                 <textFieldExpression><![CDATA[$F{assuntos}]]></textFieldExpression>
             </textField>
         </band>

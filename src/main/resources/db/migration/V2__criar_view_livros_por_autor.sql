@@ -16,4 +16,5 @@ SELECT
     ) AS assuntos
 FROM autor a
          JOIN livro_autor la ON a.cod_au = la.autor_codau
-         JOIN livro l ON la.livro_codl = l.cod_livro;
+         JOIN livro l ON la.livro_codl = l.cod_livro
+order by a.cod_au asc ;
